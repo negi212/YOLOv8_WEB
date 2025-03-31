@@ -13,7 +13,7 @@ stop_button = st.button("Stop Camera")
 FRAME_WINDOW = st.image([])
 
 # Camera setup
-camera = cv2.VideoCapture(1)
+camera = cv2.VideoCapture(0)
 
 # App state
 if 'running' not in st.session_state:
